@@ -58,3 +58,13 @@ a) Each row of the "output" table should represent one column from the source CS
 b) For data sets with more than 400,000 rows (this figure can be changed via the variable 'MAX_ROWS'), the analysis will be based on a random sample, equal to MAX_ROWS (default = 400k rows).
 
 c) The "output" JSON can be easily parsed as a table.
+
+----
+#### TODO -----------------
+1. Convert script to OOP, creating a "Data_Dic" class, adding functions and methods.
+2. Create functionality which allows the output to be either CSV, HTML, or JSON.
+3. Create an Inline output which can be rendered as a notebook cell with CSS and HTML.
+4. Extend functionality allowing for more input source types, e.g., SQL db.
+5.  Extend functionality allowing for an additional business glossary / column definition document to be provided,
+enabling a merge with the output file so that each column can have a optional definition column.
+#### -----------------
